@@ -1,1 +1,12 @@
+import time
+import zipfile
+from getpass import getpass
+from glob import glob
 
+import pygbif.occurrences as occ
+import pygbif.species as species
+
+import pandas as pd
+import geopandas as gpd
+import os # operating system and directory for working with files
+import pathlib # Best package for dealing with directories and files. Treat file paths as objects. 
